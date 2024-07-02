@@ -1,118 +1,214 @@
-    /* Reset and Basic Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+/* Konichiwa.css - Kawaii Styling */
+/* Reset and Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    body {
-      font-family: 'Comic Sans MS', cursive;
-      line-height: 1.6;
-      background-color: #fff;
-      color: #333;
-      background-image: url('https://wallpapers.com/images/hd/cinnamoroll-laptop-4r4b0h8ms6oxyosk.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      cursor: url('https://static.vecteezy.com/system/resources/previews/027/243/224/original/boba-drink-sticker-cool-colors-kawaii-clip-art-illustration-transparent-background-generative-ai-png.png'), auto;
-    }
+body {
+  font-family: 'Comic Sans MS', cursive;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+  background-image: url('https://wallpapers.com/images/hd/cinnamoroll-laptop-4r4b0h8ms6oxyosk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  cursor: url('https://static.vecteezy.com/system/resources/previews/027/243/224/original/boba-drink-sticker-cool-colors-kawaii-clip-art-illustration-transparent-background-generative-ai-png.png'), auto;
+}
 
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 20px;
-      background-image: url('https://i.pinimg.com/736x/88/d0/6e/88d06e67d1b38b6b6898a098a34579b2.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-radius: 20px; /* Rounded corners for container */
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Drop shadow for container */
-      padding: 40px; /* Increased padding for better visibility */
-      margin-top: 20px; /* Add margin to separate containers */
-    }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('https://i.pinimg.com/736x/88/d0/6e/88d06e67d1b38b6b6898a098a34579b2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin-top: 20px;
+}
 
-    /* Header Styles */
-    .kawaii-header {
-      background-color: rgba(255,126,185,0.8); /* Semi-transparent pink */
-      padding: 40px 0;
-      text-align: center;
-      position: relative; /* Ensure relative positioning */
-    }
+/* Header Styles */
+.kawaii-header {
+  background-color: rgba(255,126,185,0.8);
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+}
 
-    .kawaii-header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-    }
+.kawaii-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
 
-    .kawaii-header p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-    }
+.kawaii-header p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
 
-    /* Button Styles */
-    .kawaii-button,
-    .kawaii-button:visited {
-      display: inline-block;
-      padding: 10px 20px;
-      font-size: 1.2rem;
-      color: #fff;
-      background-color: #ff52a6; /* Darker pink */
-      border: none;
-      border-radius: 20px;
-      cursor: pointer;
-      text-decoration: none;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-      position: relative; /* Ensure relative positioning */
-      z-index: 1; /* Ensure button appears above other content */
-    }
+/* Button and Link Styles */
+.kawaii-button,
+.kawaii-button:visited {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #ff52a6;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  position: relative;
+  z-index: 1;
+}
 
-    .kawaii-button:hover,
-    .kawaii-button:visited:hover {
-      background-color: #ff7eb9; /* Soft pink on hover */
-      transform: scale(1.05);
-    }
+.kawaii-button:hover,
+.kawaii-button:visited:hover {
+  background-color: #ff7eb9;
+  transform: scale(1.05);
+}
 
-    /* Section Styles */
-    .kawaii-section {
-      padding: 80px 0;
-      text-align: center;
-    }
+/* Section Styles */
+.kawaii-section {
+  padding: 80px 0;
+  text-align: center;
+}
 
-    .kawaii-section h2 {
-      font-size: 2rem;
-      margin-bottom: 40px;
-    }
+.kawaii-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
 
-    .kawaii-feature {
-      margin-bottom: 40px;
-    }
+.kawaii-feature {
+  margin-bottom: 40px;
+}
 
-    .kawaii-feature img {
-      width: 100px;
-      height: 100px;
-      margin-bottom: 20px;
-    }
+.kawaii-feature img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
 
-    /* Footer Styles */
-    .kawaii-footer {
-      background-color: rgba(255,126,185,0.8); /* Semi-transparent pink */
-      padding: 20px 0;
-      text-align: center;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
+/* Footer Styles */
+.kawaii-footer {
+  background-color: rgba(255,126,185,0.8);
+  padding: 20px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
-    .kawaii-footer p {
-      font-size: 1rem;
-    }
+.kawaii-footer p {
+  font-size: 1rem;
+}
 
-    /* Link Styles */
-    a {
-      color: #ff52a6; /* Pink color for links */
-      text-decoration: none; /* Remove underline */
-      transition: color 0.3s ease;
-    }
+/* Link Styles */
+a {
+  color: #ff52a6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
-    a:hover {
-      color: #ff7eb9; /* Lighter pink on hover */
-    }
+a:hover {
+  color: #ff7eb9;
+}
+
+/* Text Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ff52a6;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #ff7eb9;
+}
+
+/* Slider Styles */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #ff52a6;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+input[type="range"]:hover {
+  opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background-color: #ff7eb9;
+}
+
+/* Interactable HTML Elements */
+button,
+select,
+textarea,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="checkbox"],
+input[type="radio"],
+label,
+fieldset {
+  font-family: 'Comic Sans MS', cursive;
+  color: #333;
+  background-color: #ff52a6;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+select:hover,
+textarea:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="checkbox"]:hover,
+input[type="radio"]:hover,
+label:hover,
+fieldset:hover {
+  background-color: #ff7eb9;
+  transform: scale(1.05);
+}
+
+/* Ensure consistency in form elements */
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: middle;
+}
